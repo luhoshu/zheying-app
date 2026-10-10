@@ -21,10 +21,13 @@ a{color:#087f67}.muted{color:#66736d}
 
 <p><strong>裝置上的資料：</strong>位置、目標、位置足跡、路徑量測、軌跡、GPX 疊圖、重點標記與相關設定主要保存在你的裝置中。開發者不會把這些資料上傳到自有伺服器。</p>
 
+<p><strong>參考地址：</strong>「我的位置」若可取得參考地址，會使用 Apple 系統的反向地理編碼服務，可能需要網路。參考地址僅供參考，收在「更多座標格式」中，不會加入 App 的座標分享文字。</p>
+
 <p><strong>網路服務：</strong>核心座標換算在裝置端完成。當你主動使用下列功能時，可能會連線網路：</p>
 <ul>
 <li>下載或檢查魯地圖圖資：連線至圖資來源。</li>
 <li>中文地點搜尋：使用 Apple MapKit 服務。</li>
+<li>參考地址：使用 Apple 系統的地理編碼服務。</li>
 <li>開啟 Apple 地圖或 Google 地圖：依你選擇的外部服務開啟位置。</li>
 <li>分享 GPX、CSV 或其他內容：使用 iOS 系統分享功能，由你自行選擇接收的 App 或服務。</li>
 </ul>
@@ -41,7 +44,8 @@ a{color:#087f67}.muted{color:#66736d}
 <p>MapHelper does not require an account. The developer does not build user profiles and does not use advertising, user tracking, or third-party analytics SDKs.</p>
 <p><strong>Location and tracks:</strong> Location is accessed when you use location-based features. Continuous foreground updates may be used for map-follow modes. Background location is used only after you explicitly start Track Recording and ends when you pause, finish, or cancel the recording.</p>
 <p><strong>Data on your device:</strong> Locations, targets, footprints, measurements, tracks, GPX overlays, markers, and related settings are primarily stored on your device and are not uploaded to a developer-operated server.</p>
-<p><strong>Network services:</strong> Coordinate conversion is performed on device. When you explicitly use certain features, the app may connect to the map-data provider for offline-map downloads, Apple MapKit for place search, external map apps you choose to open, or iOS sharing destinations you select.</p>
+<p><strong>Reference address:</strong> When available, a reference address is provided through Apple's reverse-geocoding service and may require a network connection. It is shown only under additional coordinate details and is not included in the app's coordinate share text.</p>
+<p><strong>Network services:</strong> Coordinate conversion is performed on device. When you explicitly use certain features, the app may connect to the map-data provider for offline-map downloads, Apple services for place search or reverse geocoding, external map apps you choose to open, or iOS sharing destinations you select.</p>
 <p><strong>Deletion:</strong> You can delete saved targets, footprints, tracks, GPX data, measurements, and offline map data in the app. Uninstalling the app removes data in the app sandbox. Copies you previously shared to other apps, cloud services, or devices are controlled by those destinations.</p>
 </div>
 
